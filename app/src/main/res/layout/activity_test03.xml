@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/white"
+    tools:context="com.example.user.algorithmtest.Test03Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/guguBtnLayout"
+            android:tag="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:tag="2"
+                android:id="@+id/gugu2Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/pink_gugudan_btn_background"
+                android:text="2단"/>
+
+            <Button
+                android:tag="3"
+                android:id="@+id/gugu3Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/blue_gugudan_btn_background"
+                android:text="3단" />
+
+            <Button
+                android:tag="4"
+                android:id="@+id/gugu4Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/pink_gugudan_btn_background"
+                android:text="4단"/>
+
+            <Button
+                android:tag="5"
+                android:id="@+id/gugu5Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/blue_gugudan_btn_background"
+                android:text="5단"/>
+
+            <Button
+                android:tag="6"
+                android:id="@+id/gugu6Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/pink_gugudan_btn_background"
+                android:text="6단"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:tag="7"
+                android:id="@+id/gugu7Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/blue_gugudan_btn_background"
+                android:text="7단"/>
+
+            <Button
+                android:tag="8"
+                android:id="@+id/gugu8Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/pink_gugudan_btn_background"
+                android:text="8단"/>
+
+            <Button
+                android:tag="9"
+                android:id="@+id/gugu9Btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/blue_gugudan_btn_background"
+                android:text="9단"/>
+
+            <Button
+                android:tag="0"
+                android:id="@+id/guguTotalBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/pink_gugudan_btn_background"
+                android:text="전체"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/guguList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
